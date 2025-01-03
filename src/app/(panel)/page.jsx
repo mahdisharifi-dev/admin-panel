@@ -320,7 +320,6 @@ export default function Home() {
                         sx={{
                             width: "100%",
                             flexShrink: "0",
-                            background: "red",
                             height: "500px",
                             overflow: "scroll",
                             position: "relative",
@@ -340,7 +339,7 @@ export default function Home() {
                     >
                         <TreeView />
                     </Grid>
-                    <Grid item xs={12} sx={{ display: { xs: "none", lg: "block" } }}>
+                    <Grid item xs={12}>
                         <Box
                             sx={{
                                 color: "white!important",

@@ -284,7 +284,7 @@ export default function StickyHeadTable() {
                 page={page}
                 onPageChange={handleChangePage}
                 onRowsPerPageChange={handleChangeRowsPerPage}
-                sx={{ backgroundColor: "#13181efa", color: "white!important" }}
+                sx={{ backgroundColor: "#13181efa", color: "white!important", width: "100%" }}
             />
         </Box>
     );
