@@ -52,18 +52,8 @@ export default function layout({ children }) {
     const handleClose2 = () => {
         setAnchorEl2(null);
     };
-    const theme = createTheme({
-        palette: {
-            primary: {
-                main: "#66B3FF",
-            },
-            white: {
-                main: "#fff",
-            },
-        },
-    });
     return (
-        <Box sx={{ display: "flex" }}>
+        <Box sx={{ display: "flex", background: "#05070a66" }}>
             <CssBaseline />
             <AppBar
                 position="fixed"

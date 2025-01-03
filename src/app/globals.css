@@ -13,16 +13,17 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #121212 !important;
 }
+
 .custom-width .MuiPaper-root {
     width: 180px !important;
 }
 
 /* .Mui */
 .MuiPopover-paper {
-    background-color: #111317;
-    border: 1px solid #303840;
+    background-color: #111317 !important;
+    border: 1px solid #303840 !important;
     padding: 6px;
     border-radius: 12px;
 }

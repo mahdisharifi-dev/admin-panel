@@ -130,7 +130,7 @@ export default function Home() {
     ];
     const [value, setValue] = React.useState(dayjs("2022-04-17"));
     return (
-        <>
+        <Box>
             <Box
                 sx={{
                     color: "white!important",
@@ -388,6 +388,6 @@ export default function Home() {
                     </Grid>
                 </Grid>
             </Grid>
-        </>
+        </Box>
     );
 }
